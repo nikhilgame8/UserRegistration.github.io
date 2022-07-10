@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+    background-color: rgb(240, 164, 137);
+    display: inline-block;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 100px 250px 100px 250px;
+    
+}
+form label{
+    margin: 10px 15px;
+    font-weight: 500;
+}
+form input{
+    margin: 10px 10px;
+    border-radius: 7px;
+    border-style: none;
+}
+    </style>
+</head>
+<body style="background-image: url(E:\glass-abstract-1501217.jpg);">
+    <form>
+    <table>
+        <caption><h1>User Registration Form</h1></caption>
+        <tr>
+            <td><label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </td>
+        <td>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password">
+        </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email ID">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" placeholder="Phone Number">
+            </td>
+            <td>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="address">Address</label>
+                <textarea style="border-radius:15px; border-style: none;" id="address" rows="3" cols="40"></textarea>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </td>
+            <td>
+                <label>Hobbies</label>
+                <input type="checkbox" value="hockey">Hockey
+                <input type="checkbox" value="cricket">Cricket
+                <input type="checkbox" value="tennis">Tennis
+                <input type="checkbox" value="chess">Chess
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>Select State</label>
+            <select name="state" id="selectState">
+            <option value="selectState" selected>Select State</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+        </select></td>
+        <td>
+            <label>Select Country</label>
+            <select name="country" id="selectCountry">
+                <option value="selectCountry" selected>Select Country</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Lucknow">Lucknow</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Upload Photo</label>
+                <input type="file" id="myFile" name="profilephoto">
+            </td>
+            <td>
+                <label>Qualifications</label>
+                <input type="text" id="qualification" placeholder="Enter your qualifications">
+            </td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">
+                <input type="submit" id="submit" value="Submit">
+            </td>
+            <td></td>
+
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
